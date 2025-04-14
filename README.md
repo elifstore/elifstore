@@ -1,5 +1,5 @@
 ## Hi there 👋
-Elif Store, tesettür elbise, çocuk giyim, takı, şal,eşarp, çanta ,gömlek, abiye ve takım modelleri sunan bir online alışveriş sitesidir. 2000 TL üzeri siparişler için ücretsiz kargo imkanı, hızlı teslimat ve aynı gün kargo imkanı ile sipariş alınmaktadır.
+Elif Store, tesettür elbise, çocuk giyim, takı, şal,eşarp, çanta ,gömlek, abiye ve takım modelleri sunan bir online alışveriş sitesidir. 1000 TL üzeri siparişler için ücretsiz kargo imkanı, hızlı teslimat ve aynı gün kargo imkanı ile sipariş alınmaktadır.
 <!--
 **elifstore/elifstore** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
