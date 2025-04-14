@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElifStore</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #d95fdf;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background-color: #f3e6f7;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(to right, #fcdffb, #e6c6fa);
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d95fdf;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ElifStore</h1>
+    <p>Şıklığın ve zarafetin adresi</p>
+  </header>
+
+  <nav>
+    <a href="#cocuk">Çocuk Giyim</a>
+    <a href="#kadin">Kadın Giyim</a>
+    <a href="#takilar">Takılar</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Yeni Sezon Ürünleri Geldi!</h2>
+    <p>Uygun fiyat, hızlı kargo, güvenli alışveriş.</p>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Ürün 1" />
+      <h3>Desenli Şal</h3>
+      <p>99 TL</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Ürün 2" />
+      <h3>Çocuk Eşofman</h3>
+      <p>149 TL</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Ürün 3" />
+      <h3>Altın Kaplama Kolye</h3>
+      <p>129 TL</p>
+    </div>
+  </section>
+
+  <footer id="iletisim">
+    <p>İletişim: elifstore@gmail.com | Instagram: @elifstore</p>
+  </footer>
+</body>
+</html>
